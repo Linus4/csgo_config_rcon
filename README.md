@@ -15,10 +15,10 @@ A demo will be automatically recorded to a file named `_demo_latest.dem` .
 
 >>> The server will override this file every time live.cfg is executed!
 
-You can also record demos manually with `rcon tv_record [demoname]`. In this case the server will not override `_demo_latest.dem`.
+You can record demos manually with `rcon tv_record [demoname]` BEFORE you go live. In this case the server will not override `_demo_latest.dem`.
 You also have to type in `rcon tv_stoprecord` when the match is over. Otherwise the server will keep recording until the map changes (`changelevel`).
 
-Pausing the match is also done manually with `rcon mp_pause_match` and `rcon mp_unpause_match`. You should bind `mp_pause_match` to a key.
+Teams may call a timeout via CS:GO's menu. Other than that, pausing the match is also done manually with `rcon mp_pause_match` and `rcon mp_unpause_match`. You should bind `mp_pause_match` to a key.
 
 # Commands
 
