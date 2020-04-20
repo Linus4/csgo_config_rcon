@@ -39,6 +39,7 @@ Available commands (rcon):
 
 # Installation
 
-1. Download this repository as a ZIP archive and extract it into the `/csgo` directory of your CSGO-server or clone this repository.
+1. Download the latest [release](https://github.com/Linus4/csgo_config_rcon/releases).
+1. Extract it in your `csgo` directory.
 2. Fill in the fields marked with `FIXME` in `server.cfg`.
 3. Restart CSGO-server.
